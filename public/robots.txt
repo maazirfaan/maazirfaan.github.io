@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maazirfaan.github.io/sitemap.xml
