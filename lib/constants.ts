@@ -1,53 +1,52 @@
 // Personal Information Constants
 export const PERSONAL_INFO = {
     // Basic Info
-    name: "Muhammad Aashir ul Haque",
-    firstName: "Muhammad Aashir Ul",
-    lastName: "Haque",
-    displayName: "M.Aashir",
+    name: "Maaz Irfan",
+    firstName: "Maaz",
+    lastName: "Irfan",
+    displayName: "Maaz Irfan",
     title: "Senior Backend Engineer",
 
     // Contact Details
-    email: "aashirulhaque@gmail.com",
-    phone: "+1 (630) 945-2396",
-    location: "Glen Ellyn, IL, USA",
-    timezone: "America/Chicago", // Central Time
+    email: "maazirfan000@gmail.com",
+    phone: "+92 321 - 3452923",
+    location: "Riyadh, Saudi Arabia",
+    timezone: "Asia/Riyadh", // Central Time
 
     // Professional Summary
-    experience: "6+ years",
+    experience: "7+ years",
     usersServed: "20M+",
     description:
-        "Senior Backend Engineer building scalable, cloud-native systems for 20M+ users. Laravel, Node.js, FastAPI, and AWS expert specializing in high-performance solutions.",
+        "Senior Backend Engineer building scalable, cloud-native systems for 20M+ users. Laravel, Node.js and AWS expert specializing in high-performance solutions.",
 
     // Social Links
     social: {
-        github: "https://github.com/aashirhaq",
-        linkedin: "https://www.linkedin.com/in/aashirhaq",
-        stackoverflow: "https://stackoverflow.com/users/7940641/aashir-haque",
-        email: "mailto:aashirulhaque@gmail.com",
-        phone: "tel:+16309452396",
+        github: "https://github.com/maazirfaan",
+        linkedin: "https://www.linkedin.com/in/maaz-irfan-cs",
+        email: "mailto:maazirfan000@gmail.com",
+        phone: "tel:+923213452923",
     },
 
     // Website & SEO
     website: {
         url: "https://maazirfaan.github.io",
         domain: "maazirfaan.github.io",
-        title: "Muhammad Aashir ul Haque | Senior Backend Engineer",
+        title: "Maaz Irfan | Senior Backend Engineer",
         description:
-            "6+ years experience building scalable systems for 20M+ users. Laravel, Node.js, FastAPI, AWS expert specializing in high-performance backend solutions.",
+            "7+ years experience building scalable systems for 20M+ users. Laravel, Node.js, AWS expert specializing in high-performance backend solutions.",
         keywords:
-            "senior backend engineer, Laravel, Node.js, FastAPI, Python, AWS, PHP, scalable systems, API development, pytest, Muhammad Aashir ul Haque",
+            "senior backend engineer, senior software engineer, PHP, Laravel, Node.js, AWS, scalable systems, API development, Maaz Irfan, Riyadh, KSA, Saudi Arabia",
     },
 
     // Resume
     resume: {
-        filename: "Aashir_Haque_Resume.pdf",
-        path: "/downloads/Aashir_Haque_Resume.pdf",
+        filename: "CV_Maaz_Irfan_25.pdf",
+        path: "/downloads/CV_Maaz_Irfan_25.pdf",
     },
 
     // Images
     images: {
-        profile: "/images/profile.jpg",
+        profile: "/images/Maaz_Profile.jpg",
         socialPreview: "/images/social-preview.jpg",
         cover: "/images/cover.jpg",
     },
@@ -63,22 +62,22 @@ export const PERSONAL_INFO = {
         position: "Senior Software Engineer",
         // type: "Part-time Remote",
         type: "Full-time",
-        startDate: "Jul 2019",
+        startDate: "Jul 2023",
         // currentStatus: "Present (Part-time Remote since Jul 2025)",
-        currentStatus: "Present",
+        currentStatus: "Oct 2025",
         // location: "Glen Ellyn, IL, USA (Remote)",
-        location: "Glen Ellyn, IL, USA",
+        location: "Riyadh, Saudi Arabia",
     },
 } as const
 
 // Tech Stack
 export const TECH_STACK = {
-    primary: ["Laravel", "PHP", "FastAPI", "Python", "MySQL", "MongoDB", "Node.js", "AWS"],
+    primary: ["Laravel", "PHP", "Python", "MySQL", "MongoDB", "Node.js", "AWS"],
     languages: ["PHP", "Python", "JavaScript", "TypeScript", "SQL", "C#"],
-    frameworks: ["Laravel", "FastAPI", "Node.js", "Express.js", "NestJS", "Next.js"],
+    frameworks: ["Laravel", "Node.js"],
     databases: ["MySQL", "MongoDB", "Redis", "Elasticsearch", "Firebase"],
     cloud: ["AWS", "Docker"],
-    testing: ["pytest", "PHPUnit", "Jest", "Selenium"],
+    // testing: ["pytest", "PHPUnit", "Jest", "Selenium"],
 } as const
 
 // Education & Certifications
