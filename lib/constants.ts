@@ -66,7 +66,7 @@ export const PERSONAL_INFO = {
         // currentStatus: "Present (Part-time Remote since Jul 2025)",
         currentStatus: "Oct 2025",
         // location: "Glen Ellyn, IL, USA (Remote)",
-        location: "Riyadh, Saudi Arabia",
+        location: "Karachi, Pakistan",
     },
 } as const
 
@@ -84,21 +84,30 @@ export const TECH_STACK = {
 export const EDUCATION = {
   degrees: [
     {
-      degree: "MS in Computer Science and Information Technology",
-      school: "NED University of Engineering and Technology",
+      degree: "MS in Project Management - MS(PM)",
+      school: "Bahria University",
       location: "Karachi, Pakistan",
-      period: "2021 – 2022",
-      description: "Advanced studies in computer science with focus on software engineering and system architecture.",
+      period: "2019 – 2021",
+      description: "Advanced studies in project management with focus",
       achievements: ["Specialized in Backend Systems", "Advanced Database Management", "Cloud Computing"],
     },
     {
-      degree: "BS in Computer Science",
-      school: "University of Karachi",
+      degree: "BS in Computer Science - BS(CS)",
+      school: "Bahria University",
       location: "Karachi, Pakistan",
-      period: "2015 – 2018",
+      period: "2014 – 2018",
       description:
         "Comprehensive computer science education with strong foundation in programming and software development.",
       achievements: ["Software Development", "Database Systems", "Web Technologies"],
+    },
+    {
+      degree: "Diploma in Software Engineering - ACCP",
+      school: "Aptech Computer Education",
+      location: "Karachi, Pakistan",
+      period: "2012 – 2014",
+      description:
+        "Comprehensive computer science education with strong foundation in programming and software development.",
+      achievements: ["Specialized in Backend Systems", "Advanced Database Management", "Cloud Computing", "Desktop & Web based Systems"],
     },
   ],
   certifications: [
@@ -121,17 +130,17 @@ export const EDUCATION = {
     //   type: "Professional Certification",
     // },
   ],
-  courses: [
-    {
-      name: "FastAPI - From Beginner to Advanced",
-      platform: "Udemy",
-      year: "2025",
-      description:
-        "Comprehensive course covering FastAPI framework development with advanced features and unit testing using pytest.",
-      skills: ["FastAPI", "Python", "pytest", "pydantic", "API Development", "Unit Testing", "Async Programming"],
-      type: "Online Course",
-    },
-  ],
+  // courses: [
+  //   {
+  //     name: "FastAPI - From Beginner to Advanced",
+  //     platform: "Udemy",
+  //     year: "2025",
+  //     description:
+  //       "Comprehensive course covering FastAPI framework development with advanced features and unit testing using pytest.",
+  //     skills: ["FastAPI", "Python", "pytest", "pydantic", "API Development", "Unit Testing", "Async Programming"],
+  //     type: "Online Course",
+  //   },
+  // ],
 } as const
 
 // Contact Form
