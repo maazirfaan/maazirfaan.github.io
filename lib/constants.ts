@@ -130,17 +130,17 @@ export const EDUCATION = {
     //   type: "Professional Certification",
     // },
   ],
-  // courses: [
-  //   {
-  //     name: "FastAPI - From Beginner to Advanced",
-  //     platform: "Udemy",
-  //     year: "2025",
-  //     description:
-  //       "Comprehensive course covering FastAPI framework development with advanced features and unit testing using pytest.",
-  //     skills: ["FastAPI", "Python", "pytest", "pydantic", "API Development", "Unit Testing", "Async Programming"],
-  //     type: "Online Course",
-  //   },
-  // ],
+  courses: [
+    // {
+    //   name: "FastAPI - From Beginner to Advanced",
+    //   platform: "Udemy",
+    //   year: "2025",
+    //   description:
+    //     "Comprehensive course covering FastAPI framework development with advanced features and unit testing using pytest.",
+    //   skills: ["FastAPI", "Python", "pytest", "pydantic", "API Development", "Unit Testing", "Async Programming"],
+    //   type: "Online Course",
+    // },
+  ],
 } as const
 
 // Contact Form
