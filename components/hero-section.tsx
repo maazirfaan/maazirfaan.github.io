@@ -150,16 +150,37 @@ export function HeroSection() {
                 </div>
               </div>
 
-              {/* 2. FastAPI - Top Left */}
+              {/* 2. PHP - Top Left */}
               <div
-                className="absolute -top-4 -left-4 sm:-top-6 sm:-left-6 lg:-top-8 lg:-left-8 w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-gradient-to-r from-teal-500 to-cyan-600 rounded-full flex items-center justify-center text-white font-bold text-lg sm:text-xl lg:text-2xl shadow-lg hover:scale-110 transition-transform duration-300 cursor-pointer group slow-pulse"
-                style={{ animationDelay: "1s" }}
-                title="FastAPI"
+                  class="absolute -top-4 -left-4 sm:-top-6 sm:-left-6 lg:-top-8 lg:-left-8 
+                        w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 
+                        bg-gradient-to-r from-indigo-600 to-purple-600 rounded-full 
+                        flex items-center justify-center text-white font-bold 
+                        text-lg sm:text-xl lg:text-2xl shadow-lg 
+                        hover:scale-110 transition-transform duration-300 
+                        cursor-pointer group slow-pulse"
+                  style="animation-delay: 1s;"
+                  title="PHP"
               >
-                <span className="font-mono">⚡</span>
-                <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2 bg-black text-white text-xs px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap z-50">
-                  FastAPI
-                </div>
+                  <svg 
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 64 64"
+                      fill="currentColor"
+                      class="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8"
+                  >
+                      <ellipse cx="32" cy="32" rx="30" ry="18" fill="#777BB4" />
+                      <path 
+                          fill="#fff"
+                          d="M20.4 36.2h-3.1l.9-4.8h3.1c1.5 0 2.2.7 2 2.1-.2 1.4-1.1 2.7-2.9 2.7zM15.1 41.9l2.1-11.1h7.1c2.9 0 4.4 1.3 4 3.9-.4 2.4-2.1 3.8-4.9 4.1h-3.6l-.8 4.3h-3.9zm13.3 0l2.1-11.1h3.9l-.7 3.7h3.5c2.9 0 4.4 1.3 4 3.9-.4 2.4-2.1 3.8-4.9 4.1H28.4zm5.3-4.8h2.9c1.5 0 2.2-.7 2.4-1.9.2-1.3-.3-1.8-1.8-1.8h-2.9l-.6 3.7zM44.8 41.9l2.1-11.1h3.9l-.8 4.1h3.6c2.9 0 4.4 1.3 4 3.9-.4 2.4-2.1 3.8-4.9 4.1h-7.9zm5.2-4.8h2.9c1.5 0 2.2-.7 2.4-1.9.2-1.3-.3-1.8-1.8-1.8h-2.9l-.6 3.7z"
+                      />
+                  </svg>
+
+                  <div class="absolute -bottom-8 left-1/2 transform -translate-x-1/2 
+                              bg-black text-white text-xs px-2 py-1 rounded 
+                              opacity-0 group-hover:opacity-100 
+                              transition-opacity duration-300 whitespace-nowrap z-50">
+                      PHP
+                  </div>
               </div>
 
               {/* 3. MySQL - Middle Left */}
