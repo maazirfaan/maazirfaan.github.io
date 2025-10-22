@@ -154,7 +154,7 @@ export const EDUCATION = {
 
 // Contact Form
 export const CONTACT_FORM = {
-    formspreeEndpoint: "https://formspree.io/f/mnnvgrdd",
+    formspreeEndpoint: "https://formspree.io/f/xgvnjarz",
     subjects: {
         default: "New contact form submission from portfolio",
     },
