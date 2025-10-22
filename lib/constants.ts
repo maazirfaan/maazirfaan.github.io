@@ -58,13 +58,13 @@ export const PERSONAL_INFO = {
 
     // Current Work Status
     currentWork: {
-        company: "Golootlo - DECAGON PAKISTAN PVT. LTD.",
+        company: "Golootlo - DECAGON PAKISTAN PVT. LTD",
         position: "Senior Software Engineer",
         // type: "Part-time Remote",
         type: "Full-time",
-        startDate: "Jul 2023",
+        startDate: "July 2023",
         // currentStatus: "Present (Part-time Remote since Jul 2025)",
-        currentStatus: "Oct 2025",
+        currentStatus: "October 2025",
         // location: "Glen Ellyn, IL, USA (Remote)",
         location: "Karachi, Pakistan",
     },
@@ -88,8 +88,13 @@ export const EDUCATION = {
       school: "Bahria University",
       location: "Karachi, Pakistan",
       period: "2019 – 2021",
-      description: "Advanced studies in project management with focus",
-      achievements: ["Specialized in Backend Systems", "Advanced Database Management", "Cloud Computing"],
+      description:
+        "Focused on strategic project planning, risk management, and agile methodologies to lead and deliver successful technology-driven projects.",
+      achievements: [
+        "Expertise in Agile & Scrum practices",
+        "Strengthened leadership and team coordination skills",
+        "Enhanced project execution and resource management",
+      ],
     },
     {
       degree: "BS in Computer Science - BS(CS)",
@@ -97,7 +102,7 @@ export const EDUCATION = {
       location: "Karachi, Pakistan",
       period: "2014 – 2018",
       description:
-        "Comprehensive computer science education with strong foundation in programming and software development.",
+        "Comprehensive undergraduate program focusing on software engineering, programming, and database systems, building a solid foundation in backend and web development.",
       achievements: ["Software Development", "Database Systems", "Web Technologies"],
     },
     {
@@ -106,8 +111,12 @@ export const EDUCATION = {
       location: "Karachi, Pakistan",
       period: "2012 – 2014",
       description:
-        "Comprehensive computer science education with strong foundation in programming and software development.",
-      achievements: ["Specialized in Backend Systems", "Advanced Database Management", "Cloud Computing", "Desktop & Web based Systems"],
+        "Comprehensive diploma program covering core programming, software design, and application development fundamentals.",
+      achievements: [
+        "Gained proficiency in desktop and web-based application development",
+        "Developed strong understanding of database design and management",
+        "Hands-on experience with backend technologies and programming languages",
+      ],
     },
   ],
   certifications: [
