@@ -9,9 +9,7 @@ export function SkillsSection() {
       title: "Languages",
       skills: [
         { name: "PHP", level: 95 },
-        { name: "Python", level: 85 },
-        { name: "JavaScript", level: 90 },
-        { name: "TypeScript", level: 60 },
+        { name: "JavaScript", level: 75 },
         { name: "SQL", level: 90 },
         { name: "C#", level: 30 },
       ],
@@ -20,22 +18,17 @@ export function SkillsSection() {
       title: "Backend & Frontend Frameworks",
       skills: [
         { name: "Laravel", level: 95 },
-        { name: "FastAPI", level: 85 },
         { name: "Node.js", level: 60 },
-        { name: "Express.js", level: 60 },
-        { name: "NestJS", level: 55 },
-        { name: "Next.js", level: 50 },
+        { name: "Bootstrap", level: 60 },
       ],
     },
     {
-      title: "Databases & Testing",
+      title: "Database Handling",
       skills: [
         { name: "MySQL", level: 85 },
         { name: "MongoDB", level: 75 },
         { name: "Redis", level: 95 },
         { name: "Elasticsearch", level: 75 },
-        { name: "pytest", level: 80 },
-        { name: "PHPUnit", level: 85 },
       ],
     },
   ]
@@ -84,13 +77,12 @@ export function SkillsSection() {
                   <p className="text-purple-100 mb-4">
                     Demonstrated expertise in architecting and optimizing high-traffic backend systems serving{" "}
                     <strong>20M+ users</strong>. Proven ability to deliver <strong>30%+ performance gains</strong>{" "}
-                    through advanced caching strategies and architectural improvements. Recently expanded expertise with{" "}
-                    <strong>FastAPI and pytest</strong> for modern Python development.
+                    through advanced caching strategies and architectural improvements.
                   </p>
                   <div className="space-y-2">
                     <div className="flex items-center">
                       <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                      <span>Payment Systems (10+ gateway integrations)</span>
+                      <span>Payment Systems (5+ gateway integrations)</span>
                     </div>
                     <div className="flex items-center">
                       <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
@@ -98,7 +90,7 @@ export function SkillsSection() {
                     </div>
                     <div className="flex items-center">
                       <div className="w-2 h-2 bg-white rounded-full mr-3"></div>
-                      <span>FastAPI & pytest (Modern Python development)</span>
+                      <span>Optimized Workflows</span>
                     </div>
                     <div className="flex items-center">
                       <div className="w-2 h-2 bg-white rounded-full mr-3"></div>

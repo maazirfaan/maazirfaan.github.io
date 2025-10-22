@@ -148,35 +148,39 @@ export function ExperienceSection() {
             </div>
 
             {/* Online Courses */}
-            <h4 className="text-lg font-semibold mb-4">Recent Learning</h4>
-            <div className="space-y-3 mb-8">
-              {EDUCATION.courses.map((course, index) => (
-                <Card
-                  key={index}
-                  className="p-4 bg-gradient-to-r from-green-50 to-blue-50 dark:from-green-900/20 dark:to-blue-900/20 border-green-200 dark:border-green-800"
-                >
-                  <div className="flex items-start space-x-3">
-                    <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <BookOpen className="h-4 w-4 text-white" />
-                    </div>
-                    <div className="flex-1">
-                      <div className="text-sm font-medium">{course.name}</div>
-                      <div className="text-xs text-muted-foreground">
-                        {course.platform} • {course.year}
+            {EDUCATION.courses.length > 0 && (
+              <>
+                <h4 className="text-lg font-semibold mb-4">Recent Learning</h4>
+                <div className="space-y-3 mb-8">
+                  {EDUCATION.courses.map((course, index) => (
+                    <Card
+                      key={index}
+                      className="p-4 bg-gradient-to-r from-green-50 to-blue-50 dark:from-green-900/20 dark:to-blue-900/20 border-green-200 dark:border-green-800"
+                    >
+                      <div className="flex items-start space-x-3">
+                        <div className="w-8 h-8 bg-gradient-to-r from-green-500 to-blue-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                          <BookOpen className="h-4 w-4 text-white" />
+                        </div>
+                        <div className="flex-1">
+                          <div className="text-sm font-medium">{course.name}</div>
+                          <div className="text-xs text-muted-foreground">
+                            {course.platform} • {course.year}
+                          </div>
+                          <p className="text-xs text-muted-foreground mt-1">{course.description}</p>
+                          <div className="flex flex-wrap gap-1 mt-2">
+                            {course.skills.map((skill) => (
+                              <Badge key={skill} variant="secondary" className="text-xs">
+                                {skill}
+                              </Badge>
+                            ))}
+                          </div>
+                        </div>
                       </div>
-                      <p className="text-xs text-muted-foreground mt-1">{course.description}</p>
-                      <div className="flex flex-wrap gap-1 mt-2">
-                        {course.skills.map((skill) => (
-                          <Badge key={skill} variant="secondary" className="text-xs">
-                            {skill}
-                          </Badge>
-                        ))}
-                      </div>
-                    </div>
-                  </div>
-                </Card>
-              ))}
-            </div>
+                    </Card>
+                  ))}
+                </div>
+              </>
+            )}
 
             {/* Certifications */}
             {EDUCATION.certifications.length > 0 && (
